@@ -1,0 +1,84 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubblin_Bios.View.PlantPage"
+             xmlns:viewmodel="clr-namespace:Bubblin_Bios.ViewModel"
+             >
+
+    <ContentPage.BindingContext>
+        <viewmodel:PlantPageViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+            <CarouselView
+                ItemsSource="{Binding PlantCollection}"
+                x:Name="carousel"
+                Loop="True"
+                BackgroundColor="Black">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="20,10,0,20" HorizontalOptions="FillAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*" />
+                                <ColumnDefinition Width="7*" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Grid.Column="0" VerticalOptions="Start">
+                                <Label TextColor="Wheat" Text="{Binding Plant.CommonName}" FontSize="Title" />
+                            </StackLayout>
+                        <StackLayout Grid.Column="0" VerticalOptions="Center">
+                                <Image Source="{Binding Plant.Image}" Aspect="AspectFill" />
+                            </StackLayout>
+                            <Frame Grid.Column="1" 
+                                VerticalOptions="Center" 
+                                Margin="20" 
+                                Padding="10" 
+                                HasShadow="True"
+                                CornerRadius="10"
+                                BorderColor="Teal"
+                                BackgroundColor="Black"
+                            >
+                                <StackLayout Spacing="10">
+                                    <Label TextColor="Wheat">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span TextColor="Teal" Text="Scientific Name: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding Plant.ScientificName}" FontAttributes="Italic"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label TextColor="Wheat">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span TextColor="Teal" Text="Location: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding Plant.Location}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label TextColor="Wheat"> 
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span TextColor="Teal" Text="Size: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding Plant.Size}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label TextColor="Wheat">
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span TextColor="Teal" Text="Details: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding DisplayedDetails}" />
+                                                <Span Text="{Binding DetailsMoreOrLessText}" TextDecorations="Underline" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding OnMoreOrLessDetailsClicked}" NumberOfTapsRequired="1" />
+                                        </Label.GestureRecognizers>
+                                    </Label>
+
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+    </ContentPage.Content>
+</ContentPage>

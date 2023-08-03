@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Name": "Freshwater",
+    "Size": "30 gallons",
+    "Lighting": "Automated LED, white on from 10:30am - 2:30pm. Moonlight Mode: 50% illumination, Teal/Blue 6:30pm - 11:30pm",
+    "Filter": [
+      {
+        "Name": "Generic external canister filter",
+        "FlowRate": "360 Gallons/Hour",
+        "Filtration": "Course Media Mad (mechanical filtration - course) to remove sediment --> Polishing Pad (mechanical filtration - medium)  to help remove impurities -->  Phosphate (Chemical Filtration) pad to remove diatoms and other plant/organic matter --> Bio Balls (Biological filtration) to help retain good bacteria to help with tank health and cycling, --> Carbon Media(Chemical Filtration) , to remove impurities."
+      },
+      {
+        "Name": "MarineLang Polishing Internal Canister",
+        "FlowRate": "290 Gallons/Hour",
+        "Filtration": "MicronFilter (mechanical filtration - fine)- this helps with very small, fine particles in the water that larger filters may miss, to promote crystal clear."
+      }
+    ],
+    "Decor": "The largest feature in this tank is immediately seen. They are two stone slabs that are glued together with marine-grade resin to create artificial hiding spaces. In the front left, there is a small cave feature. The Java Ferns in this tank are also mostly comprised of fibrous particles to make structures (one looks like a ball, one a tree!)",
+    "Temperature": "Ideal ~75\u00B0 - 77\u00B0 degrees fahrenheit",
+    "Details": "This tank has struggled with high bioloads, hence the initial two filtration system. This is a 'community' tank, where there are a wide variety of fish, as opposed to specialized tank setups for 'monster' fish or specific species/schools. The mesh-top provides a high level of gas exchange which helps oxygenate the water properly, but this also leads to faster evaporation. This tank will evaporate about 1/4 - 1/2 of an inch per day. Water changes are crucial for these tanks, and a 20-25% water change is done bi-weekly. This helps reduce the bio-load in the tank, give fresh nutrients and minerals for the ecosystem, and remove unwanted particulates. This is also the time to clean the gravel and substrate of the tank."
+  },
+  {
+    "Name": "Saltwater Reef Tank",
+    "Size": "10 gallons",
+    "Lighting": "BlueLight, automated from 8:30am to 8:30pm.",
+    "Filter": [
+      {
+        "Name": "HOB (hang-on-back)",
+        "FlowRate": "~70 gallons/hour",
+        "Filtration": "Phosphate media (chemical filtration) --> Filter Pad (mechanical filtration)"
+      }
+    ],
+    "Decor": "This tank has a substrate made from old corals and shells. There are several 'Live rocks' that have the corals affixed to them. There is no true decor in this tank.",
+    "Temperature": "~77\u00B0 fahrenheit",
+    "Details": "This tank will be a very slow growing reef/coral tank. It houses a variety of corals, 2 anemones, and currently one sea slug (who appeared out of nowhere one day! we assume he hitched a ride with one of the anemones). Corals, anemones, and some of the fish are used to lower wavelengths of light, hence the blue light (longest wavelength, can travel the furthest in water). A lovely side-effect of this is all the wonderful glowing features on all the creatures in here."
+  }
+]

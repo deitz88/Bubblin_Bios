@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Bubblin_Bios.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:Bubblin_Bios.View"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.TabBarBackgroundColor="Black"
+    Shell.TabBarUnselectedColor="Teal"
+    Shell.TabBarTitleColor="Wheat"
+    >
+
+    <!--Fish Bitches-->
+    <Tab Title="Fish Bitches" Route="MainPage">
+        <ShellContent
+            ContentTemplate="{DataTemplate view:MainPage}" />
+    </Tab>
+
+    <!--Plant Bitches-->
+    <Tab Title="Plant Bitches" Route="PlantPage">
+        <ShellContent
+            ContentTemplate="{DataTemplate view:PlantPage}" />
+    </Tab>
+
+    <!--Tank Stuff-->
+    <Tab Title="Tank Stuff" Route="TankPage">
+        <ShellContent
+            ContentTemplate="{DataTemplate view:TankPage}" />
+    </Tab>
+</Shell>

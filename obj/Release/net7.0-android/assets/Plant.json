@@ -1,0 +1,65 @@
+﻿[
+  {
+    "CommonName": "Bunch Anacharis",
+    "ScientificName": "Elodea densa",
+    "Location": "South America",
+    "Size": "20 - 60 cm (8 - 24 inches)",
+    "Details": "Bunch Anacharis is a popular aquatic plant often used in aquariums. It helps in absorbing harmful toxins and providing oxygen. It grows quite fast and can provide a beautiful green backdrop in the aquarium.",
+    "Image": "Resources/Images/Plants/elodea_densa.jpeg"
+
+  },
+  {
+    "CommonName": "Anubias",
+    "ScientificName": "Anubias barteri",
+    "Location": "West Africa",
+    "Size": "15 - 40 cm (6 - 16 inches)",
+    "Details": "Anubias plants are known for their broad, thick, dark green leaves. They are quite hardy and can thrive even under low lighting. They often serve as hiding spots for fish and can be attached to rocks and driftwoods.",
+    "Image": "Resources/Images/Plants/anubias_barteri.jpeg"
+
+  },
+  {
+    "CommonName": "Amazon Sword",
+    "ScientificName": "Echinodorus bleheri",
+    "Location": "South America",
+    "Size": "20 - 50 cm (8 - 20 inches)",
+    "Details": "Amazon Sword is well-known for its long, bright green leaves. It's a favorite in the aquarium hobby because it's relatively easy to grow. They are often used as a centerpiece in aquascaping designs.",
+    "Image": "Resources/Images/Plants/amazon_sword.jpeg"
+
+  },
+  {
+    "CommonName": "Java Fern",
+    "ScientificName": "Microsorum pteropus",
+    "Location": "Southeast Asia",
+    "Size": "13 - 20 cm (5 - 8 inches)",
+    "Details": "Java Fern is a classic aquarium plant that grows well in a variety of conditions. Its leaves provide shelter for fish and can create a stunning visual effect. The plant can be attached to rocks or driftwood.",
+    "Image": "Resources/Images/Plants/java_fern.jpeg"
+
+  },
+  {
+    "CommonName": "Red & Green Ludwigia",
+    "ScientificName": "Ludwigia repens",
+    "Location": "North and Central America",
+    "Size": "15 - 50 cm (6 - 20 inches)",
+    "Details": "Red & Green Ludwigia adds a splash of color to aquariums. It has a relatively fast growth rate and can grow under a wide range of water conditions. The color can vary from deep red to bright green depending on lighting.",
+    "Image": "Resources/Images/Plants/ludwigia.jpeg"
+
+  },
+  {
+    "CommonName": "Water Onion",
+    "ScientificName": "Crinum calamistratum",
+    "Location": "Western Africa",
+    "Size": "25 - 60 cm (10 - 24 inches)",
+    "Details": "Water Onion has unique, onion-like bulbs and long, wavy leaves. It grows slowly but can become a prominent feature in the tank. It's somewhat sensitive to water conditions and requires moderate care.",
+    "Image": "Resources/Images/Plants/water_onion.jpeg"
+
+  },
+  {
+    "CommonName": "Aponogeton",
+    "ScientificName": "Aponogeton ulvaceus",
+    "Location": "Madagascar",
+    "Size": "20 - 50 cm (8 - 20 inches)",
+    "Details": "Aponogeton Ulvaceus is known for its beautiful, wavy leaves. It's a fast-growing plant that can flower under good conditions. It can provide a great hiding spot for fish and adds a touch of elegance to any aquarium.",
+    "Image": "Resources/Images/Plants/aponogeton.jpeg"
+
+  }
+]

@@ -1,0 +1,136 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubblin_Bios.View.TankPage"
+             xmlns:viewmodel="clr-namespace:Bubblin_Bios.ViewModel"
+             >
+    <ContentPage.BindingContext>
+        <viewmodel:TankPageViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="Black">
+            <CollectionView ItemsSource="{Binding TankCollection}" Margin="30">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame 
+                            VerticalOptions="Center" 
+                            Padding="10" 
+                            HasShadow="True"
+                            CornerRadius="10"
+                            BorderColor="Teal"
+                            BackgroundColor="Black"
+                            Margin="20,0,20,10">
+                            <StackLayout Spacing="20">
+                                <Label TextColor="Wheat" Text="{Binding Tank.Name}" FontSize="Title" />
+
+                                <Label TextColor="Wheat">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Teal" Text="Size: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding Tank.Size}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label TextColor="Wheat">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Teal" Text="Lighting: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding Tank.Lighting}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label TextColor="Wheat">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Teal" Text="Temperature: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding Tank.Temperature}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label TextColor="Teal" Text="Filtration: " FontAttributes="Bold" />
+
+                                <CollectionView ItemsSource="{Binding Filters}" BackgroundColor="Black">
+                                    <CollectionView.ItemsLayout>
+                                        <GridItemsLayout Orientation="Vertical" Span="{Binding Filters.Count}"/>
+                                    </CollectionView.ItemsLayout>
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Frame BorderColor="Black" BackgroundColor="Black" HorizontalOptions="FillAndExpand">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="1*"/>
+                                                        <!--<ColumnDefinition Width="*"/>-->
+                                                    </Grid.ColumnDefinitions>
+                                                    <VerticalStackLayout Spacing="10">
+                                                    <StackLayout Grid.Column="0" Orientation="Horizontal">
+                                                            <Label TextColor="Wheat">
+                                                                <Label.FormattedText>
+                                                                    <FormattedString>
+                                                                        <Span Text="Type: " TextColor="Teal"/>
+                                                                        <Span Text="{Binding Filter.Name}"/>
+                                                                    </FormattedString>
+                                                                </Label.FormattedText>
+                                                            </Label>
+                                                        </StackLayout>
+                                                        <StackLayout Grid.Column="1" Orientation="Horizontal">
+                                                            <Label TextColor="Wheat">
+                                                                <Label.FormattedText>
+                                                                    <FormattedString>
+                                                                        <Span Text="Flow Rate: " TextColor="Teal"/>
+                                                                        <Span Text="{Binding Filter.FlowRate}"/>
+                                                                    </FormattedString>
+                                                                </Label.FormattedText>
+                                                            </Label>
+                                                        </StackLayout>
+                                                        <StackLayout Orientation="Vertical"> 
+                                                                <Label TextColor="Wheat" LineBreakMode="WordWrap" HorizontalOptions="FillAndExpand">
+                                                                    <Label.FormattedText>
+                                                                        <FormattedString>
+                                                            <Span Text="Filtration: " TextColor="Teal"/>
+                                                                            <Span Text="{Binding Filter.Filtration}"/>
+                                                                        </FormattedString>
+                                                                    </Label.FormattedText>
+                                                                </Label>
+                                                        </StackLayout>
+
+
+
+                                                        </VerticalStackLayout>
+                                                </Grid>
+                                            </Frame>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+
+
+                                <Label TextColor="Wheat">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Teal" Text="Decor: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding Tank.Decor}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label TextColor="Wheat">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Teal" Text="Details: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding Tank.Details}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding OnMoreOrLessDetailsClicked}" NumberOfTapsRequired="1" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
