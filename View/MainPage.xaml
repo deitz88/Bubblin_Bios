@@ -33,7 +33,7 @@
                                 BorderColor="Teal"
                                 BackgroundColor="Black"
                             >
-                                <ScrollView>
+                                <ScrollView VerticalOptions="StartAndExpand">
                                     <StackLayout Spacing="10">
                                         <Label TextColor="Wheat">
                                             <Label.FormattedText>
