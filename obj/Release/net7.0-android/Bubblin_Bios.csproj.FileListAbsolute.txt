@@ -16,11 +16,6 @@
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/mauifont.stamp
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/f/OpenSans-Regular.ttf
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/f/OpenSans-Semibold.ttf
-/Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/drawable-hdpi/splash.png
-/Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/drawable-mdpi/splash.png
-/Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/drawable-xhdpi/splash.png
-/Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/drawable-xxhdpi/splash.png
-/Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/drawable-xxxhdpi/splash.png
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Release/net7.0-android/resizetizer/r/mipmap-hdpi/appicon.png

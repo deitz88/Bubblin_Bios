@@ -54,7 +54,7 @@
 
                                 <CollectionView ItemsSource="{Binding Filters}" BackgroundColor="Black">
                                     <CollectionView.ItemsLayout>
-                                        <GridItemsLayout Orientation="Vertical" Span="{Binding Filters.Count}"/>
+                                        <GridItemsLayout Orientation="Vertical" Span="{Binding Filters.Count }"/>
                                     </CollectionView.ItemsLayout>
                                     <CollectionView.ItemTemplate>
                                         <DataTemplate>

@@ -39,6 +39,7 @@ namespace Bubblin_Bios.ViewModel
             {
                 Filters.Add(new FilterViewModel(filter));
             }
+            
         }
 
         public Model.Tank Tank
@@ -48,6 +49,11 @@ namespace Bubblin_Bios.ViewModel
         }
 
         public ObservableCollection<FilterViewModel> Filters { get; }
+
+        public int FilterCount
+        {
+            get => Filters?.Count ?? 0;
+        }
 
         public string DisplayedDetails
         {
