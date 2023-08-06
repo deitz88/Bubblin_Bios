@@ -1,0 +1,62 @@
+﻿[
+  {
+    "CommonName": "Green Star Polyps",
+    "ScientificName": "Clavularia viridis",
+    "Colors": "Green",
+    "IdealTemperature": "25 - 27°C (77 - 81°F)",
+    "Temperament": "Passive",
+    "ExpertiseLevel": "Beginner",
+    "Details": "Green Star Polyps are popular among aquarists due to their vibrant color and easy care. They are an excellent choice for beginners. Fun fact: These corals can rapidly cover surfaces in the aquarium, creating a stunning green carpet effect.",
+    "Image": "green_star.jpeg"
+  },
+  {
+    "CommonName": "TSA Firework Cloves",
+    "ScientificName": "Clavularia sp.",
+    "Colors": "Red, Blue, Green",
+    "IdealTemperature": "25 - 27°C (77 - 81°F)",
+    "Temperament": "Passive",
+    "ExpertiseLevel": "Intermediate",
+    "Details": "TSA Firework Cloves are known for their vibrant colors and unique appearance. They require moderate care and are suitable for aquarists with some experience. Fun fact: The 'TSA' in their name often refers to a specific aquaculture facility.",
+    "Image": "tsa_firework.jpeg"
+  },
+  {
+    "CommonName": "Frog Hammer",
+    "ScientificName": "Euphyllia divisa",
+    "Colors": "Green, Brown",
+    "IdealTemperature": "23 - 26°C (73 - 79°F)",
+    "Temperament": "Aggressive",
+    "ExpertiseLevel": "Intermediate",
+    "Details": "Frog Hammer corals have a unique appearance that resembles a hammer. They are somewhat aggressive and require careful placement within the aquarium. Fun fact: Their unique shape helps capture planktonic food.",
+    "Image": "frog.jpeg"
+  },
+  {
+    "CommonName": "Duncan Coral",
+    "ScientificName": "Duncanopsammia axifuga",
+    "Colors": "Green, Purple",
+    "IdealTemperature": "22 - 26°C (72 - 79°F)",
+    "Temperament": "Passive",
+    "ExpertiseLevel": "Beginner",
+    "Details": "Duncan Coral is an LPS coral that is easy to care for, making it suitable for beginners. Its polyps resemble a bouquet of flowers. Fun fact: It's often referred to as the Whisker Coral due to its appearance.",
+    "Image": "duncan.jpeg"
+  },
+  {
+    "CommonName": "Bird's Nest",
+    "ScientificName": "Seriatopora hystrix",
+    "Colors": "Pink, Green, Yellow",
+    "IdealTemperature": "24 - 27°C (75 - 81°F)",
+    "Temperament": "Passive",
+    "ExpertiseLevel": "Intermediate",
+    "Details": "Bird's Nest corals are named for their intricate branching that resembles a bird's nest. They are beautiful but can be somewhat challenging to keep. Fun fact: They grow rapidly under ideal conditions.",
+    "Image": "birds_nest.jpeg"
+  },
+  {
+    "CommonName": "Montipora",
+    "ScientificName": "Montipora spp.",
+    "Colors": "Green, Red, Orange",
+    "IdealTemperature": "24 - 27°C (75 - 81°F)",
+    "Temperament": "Passive",
+    "ExpertiseLevel": "Intermediate",
+    "Details": "Montipora corals come in various growth forms and are popular for their diverse appearance. They are suitable for aquarists with some experience. Fun fact: They are one of the most diverse coral genera.",
+    "Image": ""
+  }
+]

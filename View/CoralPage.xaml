@@ -1,0 +1,95 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubblin_Bios.View.CoralPage"
+             xmlns:viewmodel="clr-namespace:Bubblin_Bios.ViewModel"
+             >
+
+    <ContentPage.Content>
+            <CarouselView
+                ItemsSource="{Binding CoralCollection}"
+                x:Name="carousel"
+                Loop="True"
+                BackgroundColor="Black"
+                >
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="20, 10,0, 20" HorizontalOptions="FillAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*" />
+                                <ColumnDefinition Width="7*" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout VerticalOptions="Start">
+                                <Label TextColor="Wheat" Text="{Binding Coral.CommonName}" FontSize="Title" />
+                            </StackLayout>
+                            <Frame Grid.Column="1" 
+                                VerticalOptions="Center" 
+                                Margin="30" 
+                                Padding="10" 
+                                HasShadow="True"
+                                CornerRadius="10"
+                                BorderColor="Teal"
+                                BackgroundColor="Black"
+                            >
+                                <ScrollView VerticalOptions="StartAndExpand">
+                                    <StackLayout Spacing="10">
+                                        <Label TextColor="Wheat">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span TextColor="Teal" Text="Scientific Name: " FontAttributes="Bold"/>
+                                                    <Span Text="{Binding Coral.ScientificName}" FontAttributes="Italic"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label TextColor="Wheat">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span TextColor="Teal" Text="Colors: " FontAttributes="Bold"/>
+                                                    <Span Text="{Binding Coral.Colors}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label TextColor="Wheat">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span TextColor="Teal" Text="Ideal Temperature: " FontAttributes="Bold"/>
+                                                    <Span Text="{Binding Coral.IdealTemperature}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label TextColor="Wheat">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span TextColor="Teal" Text="Temperament: " FontAttributes="Bold"/>
+                                                    <Span Text="{Binding Coral.Temperament}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label TextColor="Wheat">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span TextColor="Teal" Text="Expertise Level: " FontAttributes="Bold"/>
+                                                    <Span Text="{Binding Coral.ExpertiseLevel}"/>
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                        <Label TextColor="Wheat">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span TextColor="Teal" Text="Details: " FontAttributes="Bold"/>
+                                                    <Span Text="{Binding DisplayedDetails}" />
+                                                    <Span Text="{Binding DetailsMoreOrLessText}" TextDecorations="Underline" />
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding OnMoreOrLessDetailsClicked}" NumberOfTapsRequired="1" />
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </StackLayout>
+                                </ScrollView>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+    </ContentPage.Content>
+</ContentPage>

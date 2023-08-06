@@ -9,7 +9,6 @@
     Shell.TabBarUnselectedColor="Teal"
     Shell.TabBarTitleColor="Wheat"
     >
-
     <!--Fish Bitches-->
     <Tab Title="Fish Bitches" Route="MainPage">
         <ShellContent
@@ -20,6 +19,12 @@
     <Tab Title="Plant Bitches" Route="PlantPage">
         <ShellContent
             ContentTemplate="{DataTemplate view:PlantPage}" />
+    </Tab>
+
+    <!--Coral Bitches-->
+    <Tab Title="Coral Bitches" Route="CoralPage">
+        <ShellContent
+            ContentTemplate="{DataTemplate view:CoralPage}" />
     </Tab>
 
     <!--Tank Stuff-->

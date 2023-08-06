@@ -88,6 +88,12 @@
 	  <None Remove="Platforms\Android\Resources\drawable\splash.png" />
 	  <None Remove="Resources\Splash\" />
 	  <None Remove="Resources\Splash\splash.png" />
+	  <None Remove="Resources\Raw\Coral.json" />
+	  <None Remove="Platforms\Android\Resources\drawable\birds_nest.jpeg" />
+	  <None Remove="Platforms\Android\Resources\drawable\green_star.jpeg" />
+	  <None Remove="Platforms\Android\Resources\drawable\duncan.jpeg" />
+	  <None Remove="Platforms\Android\Resources\drawable\tsa_firework.jpeg" />
+	  <None Remove="Platforms\Android\Resources\drawable\frog.jpeg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Converters\" />
@@ -183,5 +189,11 @@
 	  <BundleResource Include="Platforms\Android\Resources\drawable\anubias_barteri.jpeg" />
 	  <BundleResource Include="Platforms\Android\Resources\drawable\splash.png" />
 	  <BundleResource Include="Resources\Splash\splash.png" />
+	  <BundleResource Include="Resources\Raw\Coral.json" />
+	  <BundleResource Include="Platforms\Android\Resources\drawable\birds_nest.jpeg" />
+	  <BundleResource Include="Platforms\Android\Resources\drawable\green_star.jpeg" />
+	  <BundleResource Include="Platforms\Android\Resources\drawable\duncan.jpeg" />
+	  <BundleResource Include="Platforms\Android\Resources\drawable\tsa_firework.jpeg" />
+	  <BundleResource Include="Platforms\Android\Resources\drawable\frog.jpeg" />
 	</ItemGroup>
 </Project>
