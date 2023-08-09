@@ -1,1 +1,5 @@
-<resources><style name="Maui.SplashTheme" parent="Theme.AppCompat.Light.NoActionBar"><!-- Customize your theme here. --><item name="android:windowBackground">@drawable/splash</item></style></resources>
+<resources><style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar"><!-- Customize your theme here. --></style><!--  <style name="Maui.SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>--><style name="Maui.SplashTheme" parent="Theme.AppCompat.Light.NoActionBar"><item name="android:windowBackground">@layout/splash_activity</item><item name="android:windowNoTitle">true</item><item name="android:windowFullscreen">true</item></style><style name="TransparentSplashTheme" parent="android:Theme.NoTitleBar"><item name="android:windowBackground">@drawable/splash</item><item name="android:windowNoTitle">true</item></style></resources>

@@ -82,7 +82,6 @@
 	  <None Remove="Resources\Images\" />
 	  <None Remove="Platforms\Android\Resources\drawable\bristlenose.jpeg" />
 	  <None Remove="Resources\Raw\Tank.json" />
-	  <None Remove="Resources\Images\icon.png" />
 	  <None Remove="Platforms\Android\Resources\drawable\anubias_barteri.jpeg" />
 	  <None Remove="Platforms\Android\Resources\drawable\test.mp4" />
 	  <None Remove="Platforms\Android\Resources\drawable\splash.png" />
@@ -94,6 +93,14 @@
 	  <None Remove="Platforms\Android\Resources\drawable\duncan.jpeg" />
 	  <None Remove="Platforms\Android\Resources\drawable\tsa_firework.jpeg" />
 	  <None Remove="Platforms\Android\Resources\drawable\frog.jpeg" />
+	  <None Remove="Platforms\Android\Resources\layout\" />
+	  <None Remove="Platforms\Android\Resources\raw\" />
+	  <None Remove="Platforms\Android\Resources\raw\test.mp4" />
+	  <None Remove="Resources\Images\birds_nest.jpeg" />
+	  <None Remove="Resources\Images\duncan.jpeg" />
+	  <None Remove="Resources\Images\frog.jpeg" />
+	  <None Remove="Resources\Images\green_star.jpeg" />
+	  <None Remove="Resources\Images\tsa_firework.jpeg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Converters\" />
@@ -103,6 +110,8 @@
 	  <Folder Include="Platforms\Android\Resources\drawable\" />
 	  <Folder Include="Resources\Images\" />
 	  <Folder Include="Resources\Splash\" />
+	  <Folder Include="Platforms\Android\Resources\layout\" />
+	  <Folder Include="Platforms\Android\Resources\raw\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiAsset Update="Resources\Raw\Fish.json">
@@ -121,6 +130,13 @@
 	  <EmbeddedResource Include="Resources\Raw\test.mp4" />
 	  <EmbeddedResource Include="Resources\Raw\Tank.json" />
 	  <EmbeddedResource Include="Platforms\Android\Resources\drawable\test.mp4" />
+	  <EmbeddedResource Include="Platforms\Android\Resources\raw\test.mp4" />
+	  <EmbeddedResource Include="Resources\Raw\Coral.json" />
+	  <EmbeddedResource Include="Resources\Images\birds_nest.jpeg" />
+	  <EmbeddedResource Include="Resources\Images\duncan.jpeg" />
+	  <EmbeddedResource Include="Resources\Images\frog.jpeg" />
+	  <EmbeddedResource Include="Resources\Images\green_star.jpeg" />
+	  <EmbeddedResource Include="Resources\Images\tsa_firework.jpeg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <AndroidResource Include="Platforms\Android\Resources\drawable\assassin_snail.jpeg">
@@ -183,17 +199,34 @@
 	    <SubType></SubType>
 	    <Generator></Generator>
 	  </AndroidResource>
+	  <AndroidResource Include="Platforms\Android\Resources\drawable\duncan.jpeg">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
+	  <AndroidResource Include="Platforms\Android\Resources\drawable\birds_nest.jpeg">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
+	  <AndroidResource Include="Platforms\Android\Resources\drawable\green_star.jpeg">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
+	  <AndroidResource Include="Platforms\Android\Resources\drawable\tsa_firework.jpeg">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
+	  <AndroidResource Include="Platforms\Android\Resources\drawable\frog.jpeg">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
 	</ItemGroup>
 	<ItemGroup>
-	  <BundleResource Include="Resources\Images\icon.png" />
 	  <BundleResource Include="Platforms\Android\Resources\drawable\anubias_barteri.jpeg" />
-	  <BundleResource Include="Platforms\Android\Resources\drawable\splash.png" />
 	  <BundleResource Include="Resources\Splash\splash.png" />
-	  <BundleResource Include="Resources\Raw\Coral.json" />
-	  <BundleResource Include="Platforms\Android\Resources\drawable\birds_nest.jpeg" />
-	  <BundleResource Include="Platforms\Android\Resources\drawable\green_star.jpeg" />
-	  <BundleResource Include="Platforms\Android\Resources\drawable\duncan.jpeg" />
-	  <BundleResource Include="Platforms\Android\Resources\drawable\tsa_firework.jpeg" />
-	  <BundleResource Include="Platforms\Android\Resources\drawable\frog.jpeg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Platforms\Android\Resources\layout\splash_activity.xml">
+	    <ExcludeFromCurrentConfiguration>false</ExcludeFromCurrentConfiguration>
+	  </None>
 	</ItemGroup>
 </Project>

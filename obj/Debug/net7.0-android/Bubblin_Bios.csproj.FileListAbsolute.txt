@@ -101,9 +101,12 @@
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/bin/base.zip
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/bin/com.companyname.bubblin_bios.aab
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/bin/com.companyname.bubblin_bios.apks
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/splash_screen_background.xml
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/layout/splash_activity.xml
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/values/colors.xml
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/values/styles.xml
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/splash.png
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/raw/test.mp4
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/assassin_snail.jpeg
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/black_line.jpeg
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/black_molly.jpeg
@@ -119,6 +122,8 @@
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/ludwigia.jpeg
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/water_onion.jpeg
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/bristlenose.jpeg
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/duncan.jpeg
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/birds_nest.jpeg
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/uploadflags.txt
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/resolvedassemblies.hash
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/assets/Bubblin_Bios.dll
@@ -830,6 +835,8 @@
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64ba438d8f48cf7e75/IntermediateActivity.java
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64c1ec49f6116b6feb/MainActivity.java
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64c1ec49f6116b6feb/MainApplication.java
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64c1ec49f6116b6feb/OnVideoPreparedListener.java
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64c1ec49f6116b6feb/SplashActivity.java
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64e1fb321c08285b90/BaseCellView.java
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64e1fb321c08285b90/CellAdapter.java
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/android/src/crc64e1fb321c08285b90/CellRenderer_RendererHolder.java
@@ -975,3 +982,6 @@
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/green_star.jpeg
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/tsa_firework.jpeg
+/Users/thewanderer/Projects/Bubblin_Bios/obj/Debug/net7.0-android/res/drawable/frog.jpeg

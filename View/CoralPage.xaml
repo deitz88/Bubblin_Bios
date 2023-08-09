@@ -19,7 +19,10 @@
                                 <ColumnDefinition Width="7*" />
                             </Grid.ColumnDefinitions>
                             <StackLayout VerticalOptions="Start">
-                                <Label TextColor="Wheat" Text="{Binding Coral.CommonName}" FontSize="Title" />
+                                <Label TextColor="Wheat" Text="{Binding Coral.CommonName}" FontSize="Title" /> 
+                            </StackLayout>
+                            <StackLayout VerticalOptions="Center">
+                                <Image VerticalOptions="Center" Source="{Binding Coral.Image}" Aspect="AspectFill" x:Name="fishImage" />
                             </StackLayout>
                             <Frame Grid.Column="1" 
                                 VerticalOptions="Center" 
